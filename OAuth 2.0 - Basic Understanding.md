@@ -37,7 +37,7 @@ So, if you see some app that allow you to enter using your Facebook or Google ac
 
   
 
-  ## How OAuth work ?
+## How OAuth work ?
 
 1. Application will make an authorization request to user. (with callback and scope)
 2. User will be redirected to an authorization server.
