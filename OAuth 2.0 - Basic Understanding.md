@@ -45,8 +45,8 @@ So, if you see some app that allow you to enter using your Facebook or Google ac
 ## How OAuth work ?
 
 1. Application will make an authorization request to user. (with callback and scope)
-2. User will be redirected to an authorization server.
+2. User will be redirected to an authentication server.
 3. After user is authenticated on, for example, Google server and authorized the application, they will be redirected to a callback URI with an `authorization code`.
-4. Application then, exchange the authorization code into an access token within the given scope.
+4. Application then, exchange the `authorization code` into an `access token` within the given scope.
 5. Application will request for the data at `Resource server` with an `access token`
 
