@@ -21,9 +21,14 @@ So, if you see some app that allow you to enter using your Facebook or Google ac
 
 ## OAuth 2.0 Terminology
 
-+ Resource owner : who own the data that application wants to access to
+- Resource owner : who own the data that application wants to access to
 
 - Client: is the application that wants to access the data
+
+  - Take Facebook as an example
+  - In normal login we ask Facebook for access our data
+  - In OAuth, the application will ask Facebook for access our data
+  - The point is, who is the one asking for data
 
 - Authorization server: the server to authorize data access for application
 
